@@ -1,8 +1,7 @@
 {
-    "DG1" : {
-        "type" : "DataGroup",
+    "DG-1" : {
         "contact1" : {
-            "type" : "data",
+            "type" : "origin",
             "data" : {
                 "firstname" : "Justin",
                 "lastname" : "Yue"
@@ -25,8 +24,7 @@
             ]
         }
     },
-    "DG2" : {
-        "type" : "DataGroup",
+    "DG-2" : {
         "contact3" : {
             "type" : "ref",
             "path" : "/./DG1/contact1",
@@ -36,6 +34,5 @@
                 }
             ]
         }
-    },
-    "VG1" : {}
+    }
 }
