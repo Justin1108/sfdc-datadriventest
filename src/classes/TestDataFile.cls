@@ -106,7 +106,6 @@ public with sharing class TestDataFile {
      * Read, parse and load JSON string
      */
     public void parse(String jsonString) {
-    	
         //System.debug(jsonString);
         JSONParser parser = JSON.createParser(jsonString);
         if (parser.nextToken() == System.JSONToken.START_OBJECT) {
